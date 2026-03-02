@@ -32,9 +32,6 @@ class ExpandSecurityBlockerConfigurationsWithAgentMerchantPortalConfigurationTes
      */
     protected AgentSecurityBlockerMerchantPortalClientTester $tester;
 
-    /**
-     * @return void
-     */
     public function testExpandSecurityBlockerConfigurationsWithAgentMerchantPortalConfigurationShouldReturnCorrectSettingTransfers(): void
     {
         // Act

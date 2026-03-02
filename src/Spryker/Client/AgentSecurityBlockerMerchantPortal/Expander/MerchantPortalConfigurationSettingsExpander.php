@@ -17,9 +17,6 @@ class MerchantPortalConfigurationSettingsExpander implements MerchantPortalConfi
      */
     protected AgentSecurityBlockerMerchantPortalConfig $agentSecurityBlockerMerchantPortalConfig;
 
-    /**
-     * @param \Spryker\Client\AgentSecurityBlockerMerchantPortal\AgentSecurityBlockerMerchantPortalConfig $agentSecurityBlockerMerchantPortalConfig
-     */
     public function __construct(AgentSecurityBlockerMerchantPortalConfig $agentSecurityBlockerMerchantPortalConfig)
     {
         $this->agentSecurityBlockerMerchantPortalConfig = $agentSecurityBlockerMerchantPortalConfig;
